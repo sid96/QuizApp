@@ -1,0 +1,5 @@
+BASIC
+Data capture
+CPU
+OOP
+C

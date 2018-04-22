@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="quiz.com.example.android.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/question"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ComputerQuiz"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Result"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CategoryInList"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CreateQuiz"
+            android:theme="@style/QuizTheme"
+            android:label="Custom Quiz"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CustomQuiz"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AddQuestion"
+            android:theme="@style/QuizTheme"
+            android:label="Add New Question"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

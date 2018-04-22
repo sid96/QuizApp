@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colour_computer">#f0eb79</color>
+    <color name="colour_sports">#524d47</color>
+    <color name="colour_inventions">#e7595d</color>
+    <color name="colour_science">#80e7a9</color>
+    <color name="colour_general">#a084d1</color>
+</resources>
